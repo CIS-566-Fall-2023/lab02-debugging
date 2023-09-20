@@ -4,6 +4,7 @@
  - Names: Kevin Zhang
  - Link: https://www.shadertoy.com/view/cscyz2
  - Bug line 11: fixed resolution ratio from .x to .y
+ - Bug line 18: fixed precision by increasing range from 64 to 300
  - Bug line 75: reflection taking in eye instead of direction vector, eye -> dir
  - Bug line 97: not compiling, vec needs to be vec2
  - Bug line 100: using uv instead of uv2 for raycast, uv->uv2
