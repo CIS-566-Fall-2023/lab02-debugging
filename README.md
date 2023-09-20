@@ -1,19 +1,16 @@
 # lab06-debugging
 
-# Setup 
+# Name & Link
+### Janet Wang
+https://www.shadertoy.com/view/DdccR2
 
-Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
+# Bugs
+### 1. Line 97: should write vec2
+It's reminded by the compiler.
+### 2. Line 100: Should use uv2 in raycast.
+It's quite obvious when I read the mainImage() function line by line.
+### 3. Line 11: Should be H *= len * iResolution.x / iResolution.y;
+The geometry of the balls are weird, and the problem should be in raycast or sdf. And when looking at the raycast function, it's clear that H should be multiplied by Aspect ratio, which is iResolution.x / iResolution.y.
+### 4. Line 75: Should be dir = reflect(dir, nor);
+The balls are missing their reflections, so I read the code about relection in sdf. Somehow the input of reflect() was eye, it's meaningless and should be dir.
 
-Let's practice debugging! We have a broken shader. It should produce output that looks like this:
-[Unbelievably beautiful shader](https://user-images.githubusercontent.com/1758825/200729570-8e10a37a-345d-4aff-8eff-6baf54a32a40.webm)
-
-It don't do that. Correct THREE of the FIVE bugs that are messing up the output. You are STRONGLY ENCOURAGED to work with a partner and pair program to force you to talk about your debugging thought process out loud.
-
-Extra credit if you can find all FIVE bugs.
-
-# Submission
-- Create a pull request to this repository
-- In the README, include the names of both your team members
-- In the README, create a link to your shader toy solution with the bugs corrected
-- In the README, describe each bug you found and include a sentence about HOW you found it.
-- Make sure all three of your shadertoys are set to UNLISTED or PUBLIC (so we can see them!)
