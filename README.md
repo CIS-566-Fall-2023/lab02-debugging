@@ -1,5 +1,5 @@
 # lab06-debugging
-Name: Xiaoxiao(Crystal) Zou & Ruijun(Danio) Zhong
+Name: Xiaoxiao(Crystal) Zou & Ruijun(Daniel) Zhong
 
 [Our Shader](https://www.shadertoy.com/view/Dd3yzj)
 
