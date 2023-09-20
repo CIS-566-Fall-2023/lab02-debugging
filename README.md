@@ -1,7 +1,7 @@
 # lab06-debugging
 
-- Name
-Tianyi Xiao
+- Name:
+  Tianyi Xiao
 
 - [Link_To_My_Solution](https://www.shadertoy.com/view/cs3cz2)
 
