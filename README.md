@@ -1,5 +1,11 @@
 # lab06-debugging
 
+# Team Members
+Yue Zhang
+
+# Shadertoy Links
+- https://www.shadertoy.com/view/cs3yzj
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
