@@ -1,15 +1,11 @@
-# lab06-debugging
+# lab02-debugging
 
-# Setup 
-
-Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
-
-Let's practice debugging! We have a broken shader. It should produce output that looks like this:
-[Unbelievably beautiful shader](https://user-images.githubusercontent.com/1758825/200729570-8e10a37a-345d-4aff-8eff-6baf54a32a40.webm)
-
-It don't do that. Correct THREE of the FIVE bugs that are messing up the output. You are STRONGLY ENCOURAGED to work with a partner and pair program to force you to talk about your debugging thought process out loud.
-
-Extra credit if you can find all FIVE bugs.
+1. Amy Liu and Rachel Lin
+2. https://www.shadertoy.com/view/Dscczj
+3. - The first bug was just that uv2 was a vec class instead of vec2 class. We found this because it is a compile time error and showed up.
+   - The second bug was that we were inputting the uv variable into raycast instead of uv2. I found this just because I was confused where uv2 was being used, and saw it simply wasn't being used anywhere.
+   - The third bug was that our H variable in raycast was dividing by iResolution.x and did not utilize iResolution.y. I saw this because I saw the ratio of the spheres was off.
+   - The fourth bug was with reflect. This took a while, but once we found out what the difference between eye and dir was, it made it more simple.
 
 # Submission
 - Create a pull request to this repository
