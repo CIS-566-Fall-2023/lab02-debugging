@@ -4,6 +4,7 @@ Name: Xiaoxiao(Crystal) Zou & Ruijun(Danio) Zhong
 [Our Shader](https://www.shadertoy.com/view/Dd3yzj)
 
 Bugs:
+
 <b>Line 97: vec->vec2</b>  Found this due to default complier error
 
 <b>Line 100: uv->uv2</b> Found this due to wierd center point it is pointed at
