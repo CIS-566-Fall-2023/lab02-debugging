@@ -17,3 +17,8 @@ Extra credit if you can find all FIVE bugs.
 - In the README, create a link to your shader toy solution with the bugs corrected
 - In the README, describe each bug you found and include a sentence about HOW you found it.
 - Make sure all three of your shadertoys are set to UNLISTED or PUBLIC (so we can see them!)
+
+# Jackie Li and Nick Liu Lab 02 Submission
+https://www.shadertoy.com/view/flGfRc
+
+We worked together trust.
