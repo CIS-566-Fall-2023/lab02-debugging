@@ -1,4 +1,13 @@
 # lab06-debugging
+# Result
+* group members: Licheng Cao, Mengxuan Huang
+* [ShaderToyLink](https://www.shadertoy.com/view/Dd3czj)
+* Bugs:
+  * compile error uv2, which is shown by the compiler.
+  * use uv(0,1) but not uv2(-1,1), the sphere is in the LL instead of the center of the screen.
+  * resolution error, the sphere is in round shape.
+  * wrong reflection direction, the sphere doesn't reflect floor
+  * too low iteration time, there is void around the boundary of the sphere.
 
 # Setup 
 
@@ -17,3 +26,4 @@ Extra credit if you can find all FIVE bugs.
 - In the README, create a link to your shader toy solution with the bugs corrected
 - In the README, describe each bug you found and include a sentence about HOW you found it.
 - Make sure all three of your shadertoys are set to UNLISTED or PUBLIC (so we can see them!)
+
