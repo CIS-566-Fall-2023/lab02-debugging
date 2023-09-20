@@ -1,5 +1,15 @@
 # lab06-debugging
 
+## Aboudi Rai | Submission:
+### Result
+[My Debugging Scene](https://www.shadertoy.com/view/cd3czj)
+### Bugs
+1. Line 97: There was a syntax error where a `vec2` was accidentally written as `vec`.
+2. Line 100: `uv` was fed into raycast instead of `uv2`
+3. Line 11: Height was not being multiplied by correct aspect ratio. Switched to `H *= len * iResolution.x / iResolution.y` 
+4. Line 18: Increased iteration count in `march(...)` to 256 to allow all parts of the floor to be hit.
+5. Line 75: reflection was erroneously done about `eye` and `nor` rather than `dir` and `nor`. 
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
