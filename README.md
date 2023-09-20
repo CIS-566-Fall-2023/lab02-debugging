@@ -1,5 +1,17 @@
 # lab06-debugging
 
+# Submission
+
+Team: Thomas Shaw and Rain Yan
+
+[Shader with bugs corrected](https://www.shadertoy.com/view/DscyR2)
+
+1. First bug was the aspect ratio being calculated wrong. This one we found just by glancing through the code.
+2. The second was `vec` being used instead of `vec2` for `uv2` - this led to a compilation error, which was easy to pinpoint.
+3. The next one followed, where we saw only a quarter of the image on screen, so we tracked it down to some non-normalized coordinates.
+4. We noticed reflections weren't working, so we looked into the code for finding reflection materials. While stepping through the code to understand it we noticed the `reflect` call was using the wrong parameters and fixed it.
+5. Finally, the image had some "warping" around objects, which (as far as we know from raymarching experience) could be fixed by either increasing the base `t` value, or increasing step count. We increased step count from 64 to 128 and got a similar final image.
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
