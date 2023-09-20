@@ -6,7 +6,7 @@ Link to solution with bugs corrected: https://www.shadertoy.com/view/Ds3czj
 2. Line 100: Changed uv to uv2. I noticed that uv2 wasn't being used
 3. Line 11: Changed the second iResolution.x to iResolution.y. Spotted since it was strange to multiply and divide by the same variable
 4. Line 75: Changed eye to dir in the reflect inputs. Knew there was an issue with the specular since the reflections weren't showing, and thought it made more sense to pass in dir than eye
-5. Line 18: Made i loop for a larger number of iterations. Saw that the back plane wasn't as far as the desired output, so thought to make it march for more steps
+5. Line 18: Made i loop for a larger number of iterations. Saw that the back "clipping plane" wasn't as far as the desired output, so thought to make it march for more steps
 
 # Setup 
 
