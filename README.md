@@ -1,6 +1,5 @@
-README
 
-I worked alone for this lab!
+Teammates: I worked alone for this lab!
 
 ShaderToy Link: https://www.shadertoy.com/view/cscczj
 
