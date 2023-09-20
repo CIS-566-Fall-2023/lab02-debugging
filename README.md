@@ -1,5 +1,14 @@
 # lab06-debugging
 
+Nick Liu + Jackie Li
+[Fixed Version](https://www.shadertoy.com/view/DsccR2)
+Five lines fixed!
+- uv2 type incorrect; failed to compile
+- uv instead of uv2 passed as parameter
+- Incorrect aspect ratio for calculating H
+- eye reflected instead of direction for specular
+- Number of iterations for raymarch too small
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
