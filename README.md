@@ -1,5 +1,18 @@
 # lab06-debugging
+Name: Xiaoxiao(Crystal) Zou & Ruijun(Danio) Zhong
 
+[Our Shader](https://www.shadertoy.com/view/Dd3yzj)
+
+Bugs:
+<b>Line 97: vec->vec2</b>  Found this due to default complier error
+
+<b>Line 100: uv->uv2</b> Found this due to wierd center point it is pointed at
+
+<b>Line 75: eye->dir</b> Found this due to no reflection on metallic balls (or weird reflection)
+
+<b>line 11: len * iResolution.x / iResolution.x->len * iResolution.x / iResolution.y </b>  Found this due to weird scaling of the screen objects
+
+<b>line 18: 64->1000</b> Found this due to obersations of no intersections of the floor at further place.
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
