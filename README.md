@@ -21,7 +21,8 @@ Extra credit if you can find all FIVE bugs.
 # Jiefu Ling Updated
 - Team members: Jiefu Ling, Alex Fu
 - [Link to solution](https://www.shadertoy.com/view/cd3yR2)
-- Bugs: 1. vec uv2. It missed the 2 after vec2. I found this error through the compiler error.
--       2. H *= len * iResolution.x / iResolution.x;  It should be H *= len * iResolution.x / iResolution.y; I found this error by checking line by line. Aspect should be x / y not x / x;
--       3. raycast(uv, dir, eye, ref);  It should be raycast(uv2, dir, eye, ref); I found this error by checking through the main process of the shader.
--       4. dir = reflect(eye, nor); It should be dir = reflect(dir, nor); Because the reflection seems not correct. 
+- Bugs:
+  1. vec uv2. It missed the 2 after vec2. I found this error through the compiler error.
+  2. H *= len * iResolution.x / iResolution.x;  It should be H *= len * iResolution.x / iResolution.y; I found this error by checking line by line. Aspect should be x / y not x / x;
+  3. raycast(uv, dir, eye, ref);  It should be raycast(uv2, dir, eye, ref); I found this error by checking through the main process of the shader.
+  4. dir = reflect(eye, nor); It should be dir = reflect(dir, nor); Because the reflection seems not correct. 
