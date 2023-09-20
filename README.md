@@ -18,7 +18,7 @@ Extra credit if you can find all FIVE bugs.
 - In the README, describe each bug you found and include a sentence about HOW you found it.
 - Make sure all three of your shadertoys are set to UNLISTED or PUBLIC (so we can see them!)
 
-# Jiefu Ling Updated
+# Jiefu Ling & Alex Fu
 - Team members: Jiefu Ling, Alex Fu
 - [Link to solution](https://www.shadertoy.com/view/cd3yR2)
 - Bugs:
