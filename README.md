@@ -1,5 +1,13 @@
 # lab06-debugging
 
+Shixuan Fang, Tongwei Dai
+https://www.shadertoy.com/view/Ds3yR2
+1. vec -> vec2
+2. uv -> uv2
+3. iResolution.x / iResolution.x -> iResolution.x / iResolution.y
+4. dir = reflect(eye, nor) -> reflect(dir, nor)
+
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
