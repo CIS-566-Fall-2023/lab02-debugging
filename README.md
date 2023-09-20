@@ -1,5 +1,14 @@
 # lab06-debugging
 
+Hansen Yi and Kisha Yan
+
+https://www.shadertoy.com/view/csccR2
+
+Bugs
+1. There was a typo in line 97, vec instead of vec2, we found it because the shadertoy did not compile and gave a warning.
+2. We changed the second iResoultion.x to iResolution.y in line 11. We found it because the resolution of the screen seemed stretched and multiplying by iResolution.x / iResolution.x was just multiplying by 1.
+3. In line 100, we changed uv to uv2. We found it because we realized for the raycast that the input should range from -1 to 1 as opposed to just 0 to 1.
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
