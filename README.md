@@ -2,7 +2,7 @@
 # Submission
 
 Keyu Lu and Hanke Wang
-Shadertoy Link: ![Submission](https://www.shadertoy.com/view/cdcczX)
+Shadertoy Link: [Submission](https://www.shadertoy.com/view/cdcczX)
 1. **Aspect Ratio Correction**:
    
    Original:
