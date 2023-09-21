@@ -1,7 +1,7 @@
 # lab06-debugging
 # Submission
 
-Keyu Lu and Hanke Wang
+Keyu Lu and Hanke(Leo) Wang
 
 Shadertoy Link: [Submission](https://www.shadertoy.com/view/cdcczX)
 Rendered Image:
