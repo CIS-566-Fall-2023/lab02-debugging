@@ -4,7 +4,7 @@
 Keyu Lu and Hanke(Leo) Wang
 
 Shadertoy Link: [Submission](https://www.shadertoy.com/view/cdcczX)
-Rendered Image:
+Rendered Image: ![Rendered Image](https://github.com/uluyek/lab02-debugging/blob/main/CIS5660-Keyu-Hanke-Lab2.png)
 
 1. **Aspect Ratio Correction**:
    
