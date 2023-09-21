@@ -2,7 +2,10 @@
 # Submission
 
 Keyu Lu and Hanke Wang
+
 Shadertoy Link: [Submission](https://www.shadertoy.com/view/cdcczX)
+Rendered Image:
+
 1. **Aspect Ratio Correction**:
    
    Original:
