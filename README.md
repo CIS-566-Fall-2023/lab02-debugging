@@ -1,8 +1,10 @@
 # lab06-debugging
 # Submission
-Certainly! Here's a more concise summary with the suggested modifications:
 
+Keyu Lu and Hanke Wang
+Shadertoy Link: ![Submission](https://www.shadertoy.com/view/cdcczX)
 1. **Aspect Ratio Correction**:
+   
    Original:
    ```glsl
    H *= len * iResolution.x / iResolution.x; //This is just 1
