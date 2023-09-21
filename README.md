@@ -17,7 +17,6 @@ Rendered Image: ![Rendered Image](https://github.com/uluyek/lab02-debugging/blob
    ```glsl
    H *= len * iResolution.x / iResolution.y;
    ```
-   To avoid distortions, we corrected the aspect ratio in the `raycast` function.
 
 2. **Removal of Redundant `break` Statements**:
    We removed unnecessary `break` statements in the `computeMaterial` function following the `return` statements, making the code cleaner.
@@ -45,7 +44,7 @@ Rendered Image: ![Rendered Image](https://github.com/uluyek/lab02-debugging/blob
    We corrected the `uv2` calculation in the `mainImage` function, ensuring the correct field of view and aspect ratio.
 
 5. **Ray March limit Adjustments**
-  The loop limit in the `march` function is raised to `700`, as the original 64 is not sufficient enough
+  The for loop limit in the `march` function is raised to `700`, as the original 64 is not sufficient enough.
 
 
 # Setup 
