@@ -1,4 +1,46 @@
 # lab06-debugging
+# Submission
+Certainly! Here's a more concise summary with the suggested modifications:
+
+1. **Aspect Ratio Correction**:
+   Original:
+   ```glsl
+   H *= len * iResolution.x / iResolution.x; //This is just 1
+   ```
+   Corrected:
+   ```glsl
+   H *= len * iResolution.x / iResolution.y;
+   ```
+   To avoid distortions, we corrected the aspect ratio in the `raycast` function.
+
+2. **Removal of Redundant `break` Statements**:
+   We removed unnecessary `break` statements in the `computeMaterial` function following the `return` statements, making the code cleaner.
+
+3. **Reflection Vector Calculation**:
+    Original:
+    ```glsl
+    dir = reflect(eye, nor);
+    ```
+    Corrected:
+    ```glsl
+    dir = reflect(dir, nor);
+    ```
+   We corrected the reflection vector in the `sdf3D` function for accurate reflection rendering.
+
+4. **UV Coordinates Calculation**:
+    Original:
+    ```glsl
+    vec uv2 = 2.0 * uv - vec2(1.0);
+    ```
+    Corrected:
+    ```glsl
+    vec2 uv2 = 2.0 * uv - vec2(1.0);
+    ```
+   We corrected the `uv2` calculation in the `mainImage` function, ensuring the correct field of view and aspect ratio.
+
+5. **Ray March limit Adjustments**
+  The loop limit in the `march` function is raised to `700`, as the original 64 is not sufficient enough
+
 
 # Setup 
 
