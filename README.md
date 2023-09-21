@@ -1,5 +1,17 @@
 # lab06-debugging
 
+Team members: Will, Debby
+
+Shadertoy link: https://www.shadertoy.com/view/dstcRj 
+
+Bugs found:
+
+1. Fixed vec-> vec2 syntax error bug, to make it run normally.
+2. Changed aspect ratio in the raycast function to iResolution.x / iResolution.y because noticed the camera was stretched.
+3. Fixed mainImage to use uv2 instead of uv because noticed it wasn't using uv2, the correct camera position.
+4. Noticed the intersection code wasn't using the direction of the raycast and using the eye position instead, so changed dir = reflect(eye, nor) to dir = reflect(dir, nor).
+5. The render distance was shorter than it shouldve been so increased max raymarch distance from 64 to 300.
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
