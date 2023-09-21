@@ -1,4 +1,4 @@
-# lab06-debugging
+# Keyu Lu and Hanke(Leo) Wang-lab02-debugging
 # Submission
 
 Keyu Lu and Hanke(Leo) Wang
