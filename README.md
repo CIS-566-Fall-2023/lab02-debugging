@@ -1,6 +1,6 @@
 # lab06-debugging
 
-Name: Xiaoyue Ma
+# Name: Xiaoyue Ma
 
 Shader Link: https://www.shadertoy.com/view/cd3yz2
 
