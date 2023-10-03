@@ -1,5 +1,17 @@
 # lab06-debugging
 
+- Name:
+  Tianyi Xiao
+
+- [Link_To_My_Solution](https://www.shadertoy.com/view/cs3cz2)
+
+- Bug List
+1. `vec uv2 = 2.0 * uv - vec2(1.0); // found with compiler error, should change 'vec uv2' to 'vec2 uv2', to make the argument type right`
+2. `H *= len * iResolution.x / iResolution.x; // the sphere is stretched, should change to  'iResolution.x / iResolution.y', to fit in the screen size`
+3. `raycast(uv, dir, eye, ref); // screen is shifted, should use uv2 rather than uv`
+4. `dir = reflect(eye, nor); // reflection result wrong, should use dir, which is the direction from eye to the intersection point`
+5. `for(int i = 0; i < 64; ++i) { // no far ground, 64 is too small for ray casting iterations`
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
